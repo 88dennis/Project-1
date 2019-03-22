@@ -116,15 +116,20 @@ justify-content: center;
     color: white;
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
+    padding: 30px;
+    
   }
-  .card-background2 {
+  .card1 {
+      border-radius: 15px;
+  }
+  .card1-background2 {
     background-color: rgb(8, 8, 8, 0.2);;
     width: 300px;
     color: white;
     margin-top: 20px;
     
   }
-  .card-background5 {
+  .card1-background5 {
     background-color: rgb(8, 8, 8, 0.4);;
     width: 100%;
     color: white;
@@ -444,7 +449,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card{
+    .card1{
         width: 100%;
     }
     .blockquote{
@@ -503,7 +508,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card{
+    .card1{
         width: 100%;
     }
    
@@ -559,7 +564,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card{
+    .card1{
         width: 100%;
     }
     .blockquote{
@@ -616,7 +621,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card{
+    .card1{
         width: 100%;
     }
     .blockquote{
@@ -675,7 +680,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card{
+    .card1{
         width: 100%;
     }
   
@@ -732,7 +737,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card{
+    .card1{
         width: 100%;
     }
     .blockquote{
@@ -790,7 +795,7 @@ overflow: auto;
     #player{
         width: 100%;
     }
-    .card{
+    .card1{
         width: 100%;
     }
     .blockquote{
@@ -848,7 +853,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card{
+    .card1{
         width: 100%;
     }
     
@@ -903,7 +908,7 @@ strong{
 #player{
     width: 100%;
 }
-.card{
+.card1{
     width: 100%;
 }
 .blockquote{
@@ -959,7 +964,7 @@ strong{
 #player{
     width: 100%;
 }
-.card{
+.card1{
     width: 100%;
 }
  .blockquote{
@@ -967,3 +972,9 @@ strong{
    }
 
 }
+
+
+/* 
+replaced card to card1
+
+*/
