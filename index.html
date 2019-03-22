@@ -49,12 +49,11 @@
                                         <!-- INSIDE OF ROW 2 IS COL 1OF3 CLOSED-->
 
                                         <div class="col-md-4">
-
-                                            <div class="card mb-4 card-background">
-
-                                                <div class="card-header text-white"><b>Your Music Preference</b></div>
-                                                <div class="card-wrap">
-
+                                            <!--REPLACED card-background-->
+                                            <div class="card1-background"> 
+                                                <!--REPLACED card-header-->
+                                                <div class="card1-header text-white"><b>Your Music Preference</b></div>
+                                                <div class="card1-wrap">
 
                                                     <div class="form-check radio icheck-wetasphalt">
                                                         <input class="form-check-input" type="radio" name="musicPref"
@@ -114,10 +113,10 @@
                                         <!-- INSIDE OF ROW 2 IS COL 2OF3 CLOSED/STARTS-->
                                         <!-- User weather inputs (likes/dislikes) form -->
                                         <div class="col-md-4">
-                                            <div class="card mb-4 card-background">
+                                            <div class="card1-background">
 
-                                                <div class="card-header text-white"><b>Weather</b></div>
-                                                <div class="card-wrap">
+                                                <div class="card1-header text-white"><b>Weather</b></div>
+                                                <div class="card1-wrap">
 
                                                     <div class="form-check radio icheck-wetasphalt">
                                                         <input class="form-check-input" type="radio" name="wxPref"
@@ -163,10 +162,10 @@
 
                                         <!-- INSIDE OF ROW 2 IS COL 2OF3 CLOSED/STARTS-->
                                         <div class="col-md-4">
-                                            <div class="card-background card mb-4">
+                                            <div class="card1-background">
 
-                                                <div class="card-header"><b>Current Mood</b></div>
-                                                <div class="card-wrap">
+                                                <div class="card1-header"><b>Current Mood</b></div>
+                                                <div class="card1-wrap">
 
                                                     <div class="form-check radio icheck-wetasphalt">
                                                         <input class="form-check-input" type="radio" name="moodPref"
@@ -214,7 +213,7 @@
                     <input id="postal-code" type="text" class="form-control" placeholder="ZIP Code..."
                         aria-label="Submit Zip or Postal Code" aria-describedby="button-addon2">
                     <div class="input-group-append">
-                        <button id="submit" class="btn btn-info" type="submit" data-toggle="collapse"
+                        <button id="submit" class="btn" type="submit" data-toggle="collapse"
                             data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                             aria-expanded="false" aria-label="Toggle navigation">Play Music</button>
                     </div>
@@ -223,12 +222,12 @@
 
             <div class="camicon">
                 <div id="media-row1" class="col1" style="display: none">
-                    <button class="btn1" type="button" id="capture1"><img src="images/Antu_folder-camera.png"
+                    <button class="btn" type="button" id="capture1"><img src="images/Antu_folder-camera.png"
                             width="50px" height="50px"></button>
                 </div><!-- COL end -->
 
                 <div id="media-row2" class="col2">
-                    <button class="btn2" type="button" id="capture2"><img src="images/Antu_folder-camera.png"
+                    <button class="btn" type="button" id="capture2"><img src="images/Antu_folder-camera.png"
                             width="50px" height="50px"></button>
                 </div><!-- COL end -->
             </div>
@@ -248,11 +247,11 @@
 
 
                 <div id="media-playlist1" class="col5">
-                    <button class="btn3" type="button" id="play1"><img src="images/playlist.png" width="50px"
+                    <button class="btn" type="button" id="play1"><img src="images/playlist.png" width="50px"
                             height="50px"></button>
                 </div>
                 <div id="media-playlist2" class="col5" style="display: none">
-                    <button class="btn4" type="button" id="play2"><img src="images/playlist.png" width="50px"
+                    <button class="btn" type="button" id="play2"><img src="images/playlist.png" width="50px"
                             height="50px"></button>
                 </div>
             </div>
@@ -260,12 +259,12 @@
     </div>
 
     <div id="instructions-wrapper" class="container" style="display:none">
-        <div class="card-background2 card mb-4">
+        <div class="card1-background2">
 
-            <div class="card-header">
+            <div class="card1-header">
                 <h5>Instructions</h5>
             </div>
-            <div class="card-wrap">
+            <div class="card1-wrap">
                 <br>
                 <p class="instructions">
                 <ul class="instructions">
@@ -295,7 +294,7 @@
         </div>
         <div class="blockquote">
             <hr>
-            <blockquote class="text-center card-background5">
+            <blockquote class="text-center card1-background5">
                 <p class="mb-0">And when the night is cloudy, there is still a light, that shines on me, shine until
                     tomorrow,
                     let it be.<br>
@@ -344,19 +343,19 @@
 
                     <div class="row">
                         <div class="col-md-12">
-                            <button class="btn4" type="button" id="capture">Capture Mood</button>
+                            <button class="btn" type="button" id="capture">Capture Mood</button>
                         </div><!-- COL end -->
                     </div><!-- ROW end -->
                 </div><!-- COL end -->
 
                 <div class="col-md-4">
 
-                    <div class="card-background2 card mb-4">
+                    <div class="card1-background2 card mb-4">
 
-                        <div class="card-header">
+                        <div class="card1-header">
                             <h5>Facial Mood Detector</h5>
                         </div>
-                        <div class="card-wrap">
+                        <div class="card1-wrap">
                             <h6 class="mt-1 text-center">Mood Recognition Check</h6>
                             <br>
                             <p class="instructions">* This application uses your facial expression to detect your

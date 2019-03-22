@@ -19,9 +19,7 @@ body {
     position: fixed;
 }
 
-.card-header {
-    font-family: 'Lato', sans-serif;
-}
+
 .logoName {
     font-family: Verdana, Tahoma, sans-serif; 
     color: white;
@@ -108,28 +106,8 @@ justify-content: center;
 } */
 
 
-/*background-color: rgb(193, 193, 215, 0.3);*/
-.card-background {
-    background-color: rgb(8, 8, 8, 0.2);;
-    width: 250px;
-    color: white;
-    margin-top: 20px;
-    font-family: 'Lato', sans-serif;
-  }
-  .card-background2 {
-    background-color: rgb(8, 8, 8, 0.2);;
-    width: 300px;
-    color: white;
-    margin-top: 20px;
-    
-  }
-  .card-background5 {
-    background-color: rgb(8, 8, 8, 0.4);;
-    width: 100%;
-    color: white;
-    margin-top: 20px;
-    padding: 10px;
-  }
+
+  
 
 .nav3 {
 
@@ -140,12 +118,6 @@ justify-content: center;
     background-color: rgb(8, 8, 8, 0.4);
 
 }
-
-    .card-wrap {
-    
-        padding: 10px;
-        width: 100%;
-    }
 
     /*
 font-family: 'Quicksand', sans-serif;
@@ -159,6 +131,7 @@ font-family: 'Roboto', sans-serif;
     background-color:  rgb(193, 193, 215, 0.2);
     border: 1px solid  rgb(193, 193, 215);
     font-family: 'Lato', sans-serif;
+    color:white;
 }
 
 #submitYourChoice {
@@ -203,9 +176,6 @@ font-family: 'Roboto', sans-serif;
 .form-control:-ms-input-placeholder { color: lightgray; }  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder { color: lightgray; }  /* Microsoft Edge */
 
-.card-header {
-    font-size: 24px;
-}
 .instructions {
     font-size: 15px;
     border-color: darkgray;
@@ -389,3 +359,47 @@ h4 {
     background-color: #34495e;
     border-color: #34495e;
 }
+
+/*REPLACED THE HTML CLASS TO ONLY CARD1-BACKGROUND*/
+/*replaced card-header*/
+
+.card1-header {
+    font-family: 'Lato', sans-serif;
+    padding:10px;
+    font-size: 24px;
+}
+/*replaced card-background*/
+.card1-background {
+    background-color: rgb(8, 8, 8, 0.2);;
+    width: 250px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .card1-wrap {
+    
+        padding: 10px;
+        width: 100%;
+    }
+
+/*background-color: rgb(193, 193, 215, 0.3);*/
+  .card1-background2 {
+    background-color: rgb(8, 8, 8, 0.2);;
+    width: 300px;
+    color: white;
+    margin-top: 20px;
+    
+  }
+
+  .card1-background5 {
+    background-color: rgb(8, 8, 8, 0.4);;
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  /*REMOVE THE BTN-INFO INFO IN PLAY MUSIC BUTTON*/
+
+
