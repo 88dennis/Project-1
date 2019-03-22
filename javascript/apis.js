@@ -191,7 +191,7 @@ function getWeather() {
   })
 };
 //Current weather listener as a click function
-$("#submit").on("click touch", function (event) {
+$("#submit").on("click", function (event) {
   event.preventDefault();
   $("#postal-code").html("")
   getWeather();
@@ -260,8 +260,6 @@ $("#media-row1").click(function(){
   $("#melos-button1").show(); //MELOS1 as default will show the instructions
   $("#melos-button2").hide(); //MELOS2 as default will hide the instructions
 });
-
-
 
 $("#media-row2").click(function(){
   $("#media-row").fadeIn(1000);
