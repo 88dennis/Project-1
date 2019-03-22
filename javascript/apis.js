@@ -50,7 +50,7 @@ const constraints = {
 };
 // console.log(canvas)
 // console.log(context)
-captureButton.addEventListener('click', (photoCapture) => {
+captureButton.addEventListener('click touch', (photoCapture) => {
   console.log(photoCapture)
   const canvas = document.getElementById('canvas');
   // Draw the video frame to the canvas
@@ -191,7 +191,7 @@ function getWeather() {
   })
 };
 //Current weather listener as a click function
-$("#submit").on("click", function (event) {
+$("#submit").on("click touch", function (event) {
   event.preventDefault();
   $("#postal-code").html("")
   getWeather();

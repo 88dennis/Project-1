@@ -234,7 +234,7 @@ font-family: 'Roboto', sans-serif;
     
 }
 
-#capture1 {
+#cap1 {
     margin-left: 10px;
     position:relative;
     background-color: rgb(193, 193, 215, 0.8);
@@ -242,7 +242,7 @@ font-family: 'Roboto', sans-serif;
     border-radius: 20px;
     
 }
-#capture2 {
+#cap2 {
     margin-left: 10px;
     position:relative;
     background-color: rgb(193, 193, 215, 0.8);
