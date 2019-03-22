@@ -20,9 +20,6 @@ body {
     position: fixed;
 }
 
-.card-header {
-    font-family: 'Lato', sans-serif;
-}
 .logoName {
     font-family: Verdana, Tahoma, sans-serif; 
     color: white;
@@ -211,6 +208,7 @@ font-family: 'Roboto', sans-serif;
 
 .card-header {
     font-size: 24px;
+    font-family: 'Lato', sans-serif;
 }
 .instructions {
     font-size: 15px;
@@ -231,10 +229,9 @@ font-family: 'Roboto', sans-serif;
     background-color: rgb(193, 193, 215, 0.8);
     border-color: transparent;
     border-radius: 20px;
-    
 }
 
-#cap1 {
+#capture1 {
     margin-left: 10px;
     position:relative;
     background-color: rgb(193, 193, 215, 0.8);
@@ -242,13 +239,16 @@ font-family: 'Roboto', sans-serif;
     border-radius: 20px;
     
 }
-#cap2 {
+li {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+#capture2 {
     margin-left: 10px;
     position:relative;
     background-color: rgb(193, 193, 215, 0.8);
     border-color: transparent;
     border-radius: 20px;
-    
 }
 
 #play1 {
