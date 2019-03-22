@@ -119,7 +119,7 @@ justify-content: center;
     padding: 30px;
     
   }
-  .card1 {
+  .cont1 {
       border-radius: 15px;
   }
   .card1-background2 {
@@ -449,7 +449,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card1{
+    .cont1{
         width: 100%;
     }
     .blockquote{
@@ -508,7 +508,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card1{
+    .cont1{
         width: 100%;
     }
    
@@ -564,7 +564,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card1{
+    .cont1{
         width: 100%;
     }
     .blockquote{
@@ -621,7 +621,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card1{
+    .cont1{
         width: 100%;
     }
     .blockquote{
@@ -680,7 +680,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card1{
+    .cont1{
         width: 100%;
     }
   
@@ -737,7 +737,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card1{
+    .cont1{
         width: 100%;
     }
     .blockquote{
@@ -795,7 +795,7 @@ overflow: auto;
     #player{
         width: 100%;
     }
-    .card1{
+    .cont1{
         width: 100%;
     }
     .blockquote{
@@ -853,7 +853,7 @@ width: 100%;
     #player{
         width: 100%;
     }
-    .card1{
+    .cont1{
         width: 100%;
     }
     
@@ -908,7 +908,7 @@ strong{
 #player{
     width: 100%;
 }
-.card1{
+.cont1{
     width: 100%;
 }
 .blockquote{
@@ -964,7 +964,7 @@ strong{
 #player{
     width: 100%;
 }
-.card1{
+.cont1{
     width: 100%;
 }
  .blockquote{
@@ -975,6 +975,6 @@ strong{
 
 
 /* 
-replaced card to card1
+replaced card to cont1
 
 */
